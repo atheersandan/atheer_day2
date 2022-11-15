@@ -1,0 +1,68 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        //التمرين الاول
+        Scanner number = new Scanner(System.in);
+
+        int number;
+
+        System.out.print("Enter a any number: ");
+        String anyNumber = number.nextLine();
+
+
+        if (number == 0)
+            System.out.println("zero!");
+        else if (number > 0)
+            System.out.println("Positive!");
+        else
+            System.out.println("negative");
+
+
+
+
+        // التمرين الثاني
+        Scanner name = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
+
+        String name;
+        int number;
+
+        System.out.print("Enter your name: ");
+        String name = name.nextLine();
+        System.out.print("Enter any number: ");
+        String number = number.nextLine();
+        char letter = str.charAt(number);
+
+
+        //التمرين الثالث
+        Scanner firstName = new Scanner(System.in);
+        Scanner letter = new Scanner(System.in);
+        String firstName;
+        char letter;
+        System.out.print("Enter your first name: ");
+        name = firstName.nextLine();
+        System.out.print("Enter any letter: ");
+        letter = letter.nextLine();
+        char letter = str.charAt(name);
+
+        //التمرين الرابع
+        Scanner firstNumber = new Scanner(System.in);
+        Scanner secendNumber = new Scanner(System.in);
+        Scanner thirdNumber = new Scanner(System.in);
+
+        int firstNumber;
+        int secendNumber;
+        int thirdNumber;
+
+        System.out.print("Enter any number (1): ");
+        firstNumber = firstNumber.nextLine();
+        System.out.print("Enter any number (2): ");
+        secendNumber = secendNumber.nextLine();
+        System.out.print("Enter any number (3): ");
+        thirdNumber = thirdNumber.nextLine();
+
+        largest = thirdNumber > (firstNumber > secendNumber ? firstNumber : secendNumber) ? thirdNumber : ((firstNumber > secendNumber) ? firstNumber : secendNumber);
+        System.out.println("The largest number is: "+largest);
+
+
+    }
